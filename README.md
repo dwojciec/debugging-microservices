@@ -1,7 +1,8 @@
 # Debugging Microservices
 
-  * Jaeger
-  * Squash
+  * [Jaeger](https://github.com/dwojciec/debugging-microservices#jaeger)
+  * [Squash](https://github.com/dwojciec/debugging-microservices#squash)
+  * [Gloo](https://github.com/dwojciec/debugging-microservices#gloo)
  
     
 # Jaeger 
@@ -66,3 +67,14 @@ $ oc process -f https://raw.githubusercontent.com/dwojciec/debugging-microservic
 ## Demo scenario
 
 
+# Gloo
+ **Prerequisites** : installation of glooctl command line interface tool  from [`here`](https://github.com/solo-io/glooctl/releases/latest/)
+ 
+ ```
+ exemple on MAC OSX:
+ 
+ wget https://github.com/solo-io/glooctl/releases/download/v0.3.0/glooctl-darwin-amd64
+ ```
+ 
+## Demo deployment
+ 
