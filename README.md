@@ -77,4 +77,30 @@ $ oc process -f https://raw.githubusercontent.com/dwojciec/debugging-microservic
  ```
  
 ## Demo deployment
+
+We are installing gloo inside a project called *gloo-system* using **glooctl** CLI installed above. 
+We are deploying a simple petclinic java springboot apps attached to a mysql app, and an application service written in GO which adds "location" colums to the list of veterinarians Menu.
+ 
+ ```
+ $ oc login 
+ $ glooctl install openshift 
+ $ oc project gloo-system
+ 
+ Petclinic Monolithic app 
+ $ oc project default
+ $ oc create -f https://raw.githubusercontent.com/solo-io/gloo/master/example/demo/yamls/pet-clinic.yaml
+ 
+ Veterinarian app service written in GO
+ $ oc create https://raw.githubusercontent.com/solo-io/gloo/master/example/demo/yamls/vets.yaml
+ ```
+ 
+ Note - source code for this demo is here: [https://github.com/solo-io/spring-petclinic](https://github.com/solo-io/spring-petclinic), [https://github.com/solo-io/petclinic-vet](https://github.com/solo-io/petclinic-vet). 
+ 
+
+ Creation of a **AWS Lambda function**
+ 
+ Let's expand the app functionality by displaying a contact form and saving the contact response to an AWS S3 bucket.
+ To do it you can follow the procedure [`here`](https://github.com/solo-io/gloo/tree/master/example/demo#add-some-cloud)
+ 
+ ## Demo scenario
  
