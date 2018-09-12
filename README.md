@@ -45,7 +45,7 @@ export SQUASH_SERVER_URL=
 ```
 
 ###install squash CLI locally on Linux or Mac OSX
-see : [`here`] (https://github.com/solo-io/squash/tree/master/docs/install#command-line-interface-cli)
+see : [`here`](https://github.com/solo-io/squash/tree/master/docs/install#command-line-interface-cli)
 
 ```
 squash list a
@@ -53,7 +53,7 @@ squash list r
 ```
 
 ### install squash IDE plugin (Visual Studio Code and IntelliJ)
-see: ['here'] (https://github.com/solo-io/squash/blob/master/docs/IDEs.md#ides)
+see: ['here'](https://github.com/solo-io/squash/blob/master/docs/IDEs.md#ides)
  
 ###locally clone Application example  
 
