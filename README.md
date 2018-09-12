@@ -53,7 +53,7 @@ squash list r
 ```
 
 ### install squash IDE plugin (Visual Studio Code and IntelliJ)
-see: ['here'](https://github.com/solo-io/squash/blob/master/docs/IDEs.md#ides)
+see: [`here`](https://github.com/solo-io/squash/blob/master/docs/IDEs.md#ides)
  
 ###locally clone Application example  
 
