@@ -58,7 +58,7 @@ objects:
           deploymentconfig: example-service2
       spec:
         containers:
-        - image: quay.io/dwojciec/example-service2:v0.2.2
+        - image: quay.io/dwojciec/example-service2-java:v0.2.2
           imagePullPolicy: IfNotPresent
           name: example-service2
           ports:
