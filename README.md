@@ -103,7 +103,7 @@ We are deploying a simple petclinic java springboot apps attached to a mysql app
  To do it you can follow the procedure [`here`](https://github.com/solo-io/gloo/tree/master/example/demo#add-some-cloud)
  
  
- Note : The json to html conversion is not working you have to use the control-plane image : soloio/control-plane:0.4.3-hotfix-resp-transform
+ Note : The json to html conversion is not working you have to use the control-plane image : soloio/control-plane:0.4.3-hotfix-resp-transform. Open the deployment configuration of control-plane inside gloo-system namespace and change the image used.
  
   ## Demo scenario
  
