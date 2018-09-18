@@ -91,7 +91,7 @@ We are deploying a simple petclinic java springboot apps attached to a mysql app
  $ oc create -f https://raw.githubusercontent.com/solo-io/gloo/master/example/demo/yamls/pet-clinic.yaml
  
  Veterinarian app service written in GO
- $ oc create https://raw.githubusercontent.com/solo-io/gloo/master/example/demo/yamls/vets.yaml
+ $ oc create -f https://raw.githubusercontent.com/solo-io/gloo/master/example/demo/yamls/vets.yaml
  ```
  
  Note - source code for this demo is here: [https://github.com/solo-io/spring-petclinic](https://github.com/solo-io/spring-petclinic), [https://github.com/solo-io/petclinic-vet](https://github.com/solo-io/petclinic-vet). 
