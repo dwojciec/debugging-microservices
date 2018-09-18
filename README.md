@@ -102,5 +102,8 @@ We are deploying a simple petclinic java springboot apps attached to a mysql app
  Let's expand the app functionality by displaying a contact form and saving the contact response to an AWS S3 bucket.
  To do it you can follow the procedure [`here`](https://github.com/solo-io/gloo/tree/master/example/demo#add-some-cloud)
  
- ## Demo scenario
+ 
+ Note : The json to html conversion is not working you have to use the control-plane image : soloio/control-plane:0.4.3-hotfix-resp-transform
+ 
+  ## Demo scenario
  
